@@ -19,6 +19,22 @@ PetJoy: A one-stop hub for information and resource exchange tailored to pet ent
 > ***Relevant course***
 > * Database Course Project 2024 (2024年同济大学数据库课程设计)
 
+The project consists of five main modules:
+
+* Pet Community
+* Pet News
+* Pet Adoption
+* Pet Encyclopedia
+* Pet AI
+
+本项目由五个主要模块组成：
+
+* 宠物社区
+* 宠物新闻
+* 宠物领养
+* 宠物百科
+* 宠物 AI
+
 ## 成员分工
 
 | 姓名 | 学号 | GitHub 主页 | 代码行数 |
@@ -52,6 +68,12 @@ git log --format='%aN' | sort -u | while read name; do echo -en "$name\t"; git l
 * `/UserInterface`
 前端应用程序
 
+## 致谢
+
+Thanks to [bunnyoii](https://github.com/bunnyoii) for her contributions to this repository.
+
+感谢 [bunnyoii](https://github.com/bunnyoii) 对本仓库的贡献。
+
 ## 免责声明
 
 The code and materials contained in this repository are intended for personal learning and research purposes only and may not be used for any commercial purposes. Other users who download or refer to the content of this repository must strictly adhere to the **principles of academic integrity** and must not use these materials for any form of homework submission or other actions that may violate academic honesty. I am not responsible for any direct or indirect consequences arising from the improper use of the contents of this repository. Please ensure that your actions comply with the regulations of your school or institution, as well as applicable laws and regulations, before using this content. If you have any questions, please contact me via [email](mailto:minmuslin@outlook.com).
@@ -60,4 +82,4 @@ The code and materials contained in this repository are intended for personal le
 
 ## 文档更新日期
 
-2024年9月8日
+2024年9月13日
