@@ -39,7 +39,7 @@ The project consists of five main modules:
 
 | 姓名 | 学号 | GitHub 主页 | 代码行数 |
 | :---: | :---: | :---: | :---: |
-| 林继申 (组长) | 2250758 | [MinmusLin](https://github.com/MinmusLin) | 30069 |
+| 林继申 (组长) | 2250758 | [MinmusLin](https://github.com/MinmusLin) | 30091 |
 | 刘淑仪 | 2251730 | [bunnyoii](https://github.com/bunnyoii) | 6220 |
 | 赵思源 | 2252444 | [aaa705](https://github.com/aaa705) | 3410 |
 | 杜天乐 | 2251310 | [lleell04](https://github.com/lleell04) | 2903 |
