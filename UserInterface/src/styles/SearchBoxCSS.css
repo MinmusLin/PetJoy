@@ -1,0 +1,91 @@
+/*
+ * Project Name:  UserInterface
+ * File Name:     SearchBoxCSS.css
+ * File Function: 搜索框样式表
+ * Author:        宠悦 | PetJoy 项目开发组
+ * Update Date:   2024-08-14
+ * License:       Creative Commons Attribution 4.0 International License
+ */
+
+:global(:root) {
+    --search-input-background-color: #FFFFFF;
+    --search-icon-invert-filter: invert(60%);
+    --search-el-title-color: #29ADFF;
+}
+
+:global(.dark) {
+    --search-input-background-color: #303030;
+    --search-icon-invert-filter: invert(80%);
+    --search-el-title-color: #61B1EF;
+}
+
+.custom-search-input {
+    background-color: var(--search-input-background-color);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    width: 900px;
+    height: 64px;
+    font-size: 24px;
+}
+
+.search-dropdown {
+    width: 900px;
+    max-height: 280px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: var(--search-input-background-color);
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    top: 100%;
+    left: 0;
+}
+
+.menu-item-large {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icon-enter {
+    width: 15px;
+    height: 15px;
+    filter: var(--search-icon-invert-filter);
+}
+
+.icon-alignment {
+    margin-left: auto;
+    margin-right: -7px;
+    margin-bottom: 42px;
+}
+
+.margin-title-context {
+    margin-top: -28px;
+}
+
+.menu-item-context {
+    display: inline-block;
+    max-width: 812px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    margin-left: 22px;
+}
+
+.menu-item-title {
+    display: inline-block;
+    max-width: 812px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    color: var(--search-el-title-color);
+    font-size: 18px;
+    margin-left: 22px;
+}

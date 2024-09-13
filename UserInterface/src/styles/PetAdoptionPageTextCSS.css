@@ -1,0 +1,46 @@
+/*
+ * Project Name:  UserInterface
+ * File Name:     PetAdoptionPageTextCSS.css
+ * File Function: 宠物领养页面文本样式表
+ * Author:        宠悦 | PetJoy 项目开发组
+ * Update Date:   2024-07-28
+ * License:       Creative Commons Attribution 4.0 International License
+ */
+
+:global(:root) {
+    --pet-adoption-text-color: #002060;
+}
+
+:global(.dark) {
+    --pet-adoption-text-color: #bdd7ee;
+}
+
+.page-container {
+    background-color: var(--el-color-primary-light-9);
+    padding: 30px
+}
+
+h1 {
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    color: var(--pet-adoption-text-color);
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: justify;
+    padding-bottom: 4px;
+    color: var(--pet-adoption-text-color);
+}
+
+p {
+    font-size: 16px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 24px;
+    text-align: justify;
+    color: var(--pet-adoption-text-color);
+}

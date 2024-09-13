@@ -1,0 +1,35 @@
+/*
+ * Project Name:  UserInterface
+ * File Name:     FooterNavbarTextCSS.css
+ * File Function: 底部导航栏组件文本样式表
+ * Author:        宠悦 | PetJoy 项目开发组
+ * Update Date:   2024-07-26
+ * License:       Creative Commons Attribution 4.0 International License
+ */
+
+h1 {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    text-align: justify;
+    border-bottom: 1px solid var(--el-color-info-light-7);
+    padding-bottom: 4px;
+}
+
+p, li {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    line-height: 24px;
+    text-align: justify;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 18px;
+    text-align: justify;
+}
+
+ul {
+    list-style-type: disc;
+}

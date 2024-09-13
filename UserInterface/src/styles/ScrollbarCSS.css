@@ -1,0 +1,30 @@
+/*
+ * Project Name:  UserInterface
+ * File Name:     ScrollbarCSS.css
+ * File Function: 滚动条样式表
+ * Author:        宠悦 | PetJoy 项目开发组
+ * Update Date:   2024-08-01
+ * License:       Creative Commons Attribution 4.0 International License
+ */
+
+:root {
+    --scrollbar-color: #e1e1e1;
+}
+
+.dark {
+    --scrollbar-color: #393939;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: none;
+}

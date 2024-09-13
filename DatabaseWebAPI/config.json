@@ -1,0 +1,23 @@
+﻿{
+  "DatabaseConfig": {
+    "UserId": "[TODO: UserId]",
+    "Password": "[TODO: Password]",
+    "Host": "[TODO: Host]",
+    "Port": "[TODO: Port]",
+    "ServiceName": "[TODO: ServiceName]"
+  },
+  "OSSConfig": {
+    "AccessKeyId": "[TODO: AccessKeyId]",
+    "AccessKeySecret": "[TODO: AccessKeySecret]",
+    "Endpoint": "[TODO: Endpoint]",
+    "BucketName": "[TODO: BucketName]"
+  },
+  "Jwt": {
+    "Key": "[TODO: Key]",
+    "Issuer": "http://[TODO: Host]",
+    "Audience": "http://[TODO: Host]"
+  },
+  "ZhipuAI": {
+    "ZhipuAPI": "[TODO: ZhipuAPI]"
+  }
+}
