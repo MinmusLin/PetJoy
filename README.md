@@ -16,13 +16,13 @@ PetJoy: A one-stop hub for information and resource exchange tailored to pet ent
 > ***Relevant course***
 > * Database Course Project 2024 (2024 年同济大学数据库课程设计)
 
-## 项目组成
+## 仓库组成
 
-* `/Database`
+* [Database](Database)
 数据库
 
-* `/DatabaseWebAPI`
+* [Database Web API](DatabaseWebAPI)
 后端应用程序
 
-* `/UserInterface`
+* [User Interface](UserInterface)
 前端应用程序
